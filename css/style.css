@@ -126,12 +126,14 @@ article img {
 	width: 45%;
 	padding: 20px;
 }
-
+aside > section {
+	margin: 20px 0;
+}
 .soft-skills {
 	color: #eb5b5b;
 	display: block;
 	font-size: 23px;
-	margin-bottom: 12px;
+
 }
 
 /* End Content */
