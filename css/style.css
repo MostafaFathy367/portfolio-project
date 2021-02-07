@@ -7,6 +7,9 @@ body{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-weight: bold;
 }
+h3 {
+	text-transform: capitalize;
+}
 header {
 	background-color: #DDD;
 }
@@ -133,7 +136,10 @@ aside > section {
 	color: #eb5b5b;
 	display: block;
 	font-size: 23px;
-
+}
+aside h3 {
+	color: #eb5b5b;
+	font-size: 23px;
 }
 .progres{
 	position: relative;
@@ -180,57 +186,6 @@ footer a:hover {
 	
 }
 /* End  Footer */
-.container{
-	width: 1000px;
-	height: 720px;
-    background-color: white;
-    margin: 70px auto 0px;
-    border-top: 3px solid #eb5b5b;
-    text-align: center;
-    padding: 0 20px;
-}
-
-
-.right{
-	float: right;
-	direction: rtl;
-	margin: 5px;
-	padding: 10px;
-	width: 55%;
-	text-align: right;
-}
-
-.header{
-	color: #eb5b5b;
-	display: block;
-	margin-right: 2px;
-	font-size: 23px
-}
-
-.header-left{
-	color: #eb5b5b;
-	display: block;
-	font-size: 23px;
-	margin-bottom: 12px;
-}
-
-.pragra{
-	font-size: 35px;
-	color: #eb5b5b;
-	float: right;
-}
-
-.left{
-	float: left;
-	direction: rtl;
-	width: 40%;
-	padding: 10px;
-	text-align: right;
-}
-.eng{
-	font-family: Impact, Charcoal, sans-serif;
-	font-weight: normal;
-}
 
 
 .photo{
@@ -239,10 +194,8 @@ footer a:hover {
 	height: auto;
 	color: white;
 	margin-top: 5px;
-    padding: 5px;
+  padding: 5px;
 }
-
-.photo span{float: left;}
 
 .mic{
 	background-color: #eb5b5b;
@@ -252,7 +205,6 @@ footer a:hover {
 	margin-top: 5px;
     padding: 5px;
 }
-.mic span{float: left;}
 
 .info p{
 	background-color: #eb5b5b;
