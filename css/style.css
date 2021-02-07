@@ -138,6 +138,29 @@ aside > section {
 
 /* End Content */
 
+/* Start Footer */
+footer {
+	text-align: center;
+	padding: 20px;
+	margin-top: 10px;
+	background-color: #dddddd;
+}
+footer a {
+	color: #fff;
+	background: #cccccc;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;
+	font-size: 35px;
+	border-radius: 7px;
+}
+footer a:hover {
+	color: #eb5b5b;
+	background: #ffffff;
+	
+}
+/* End  Footer */
 .container{
 	width: 1000px;
 	height: 720px;
@@ -261,9 +284,4 @@ aside > section {
 .cont{
 	color: grey;
 	padding: 9px;
-}
-
-.social{
-	text-align: center;
-	font-size: 25px;
 }
