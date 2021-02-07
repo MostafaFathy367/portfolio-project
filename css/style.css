@@ -135,6 +135,25 @@ aside > section {
 	font-size: 23px;
 
 }
+.progres{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	background-color: #eb5b5b;
+	margin-top: 5px;
+  padding: 5px;
+	font-size: 19px;
+}
+.comph{
+	width: 98%;
+}
+.compc{
+	width: 85%;
+}
+.compj{
+	width: 40%;
+}
 
 /* End Content */
 
@@ -213,44 +232,6 @@ footer a:hover {
 	font-weight: normal;
 }
 
-.comph{
-	background-color: #eb5b5b;
-	width: 98%;
-	height: auto;
-	color: white;
-	margin-top: 5px;
-    padding: 5px;
-}
-
-.comph span{
-	float: left;
-}
-
-.compc{
-	background-color: #eb5b5b;
-	width: 85%;
-	height: auto;
-	color: white;
-	margin-top: 5px;
-    padding: 5px;
-}
-
-.compc span{
-	float: left;
-}
-
-.compj{
-	background-color: #eb5b5b;
-	width: 40%;
-	height: auto;
-	color: white;
-	margin-top: 5px;
-    padding: 5px;
-}
-
-.compj span{
-	float: left;
-}
 
 .photo{
 	background-color: #eb5b5b;
